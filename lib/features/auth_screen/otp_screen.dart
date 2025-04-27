@@ -19,6 +19,7 @@ class _OTPScreenState extends State<OTPScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.cFFFFFF,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
