@@ -9,6 +9,7 @@ import 'package:plant_apps/asset_helper/app_icons.dart';
 import 'package:plant_apps/common_widgets/custom_button.dart';
 import 'package:plant_apps/features/auth_screen/forget_password_screen.dart';
 import 'package:plant_apps/features/auth_screen/signup_screen.dart';
+import 'package:plant_apps/features/home_screen/presentation/home_screen.dart';
 
 class LoginInScreen extends StatefulWidget {
   const LoginInScreen({super.key});
@@ -144,7 +145,9 @@ class _LoginInScreenState extends State<LoginInScreen> {
                   height: 42,
                   borderRadius: 20,
                   name: 'Sign In',
-                  onCallBack: () {},
+                  onCallBack: () {
+                    Get.to(const HomeScreen());
+                  },
                   context: context,
                   color: AppColors.primaryColor,
                   borderColor: AppColors.primaryColor,

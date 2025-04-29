@@ -14,4 +14,8 @@ class AppIcons {
   // svg icons
   static const String eyeSvg = '$iconsRoute/eye.svg';
   static const String eyeOffSvg = '$iconsRoute/eyeoff.svg';
+  static const String backIcon = '$iconsRoute/back_icon.png';
+  static const String greenIcons = '$iconsRoute/green_circle.png';
+  static const String minus = '$iconsRoute/minus.png';
+  static const String plus = '$iconsRoute/plus.png';
 }

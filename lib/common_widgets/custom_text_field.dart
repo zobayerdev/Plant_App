@@ -17,9 +17,9 @@ class CustomTextField_5 extends StatefulWidget {
   final Color? fieldColor; // Custom field background color
   final double? textSize; // Custom text size
   final TextAlign? textAlign; // Custom text alignment
-  final double? height; // Custom height for the field
-  final double? width; // Custom height for the field
-  final GestureTapCallback? onTap; // Added onTap parameter
+  final double? height; 
+  final double? width; 
+  final GestureTapCallback? onTap; 
 
   const CustomTextField_5({
     Key? key,

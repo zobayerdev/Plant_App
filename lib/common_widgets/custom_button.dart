@@ -4,7 +4,7 @@ import 'package:plant_apps/asset_helper/app_fonts.dart';
 
 Widget customButton({
   required String name,
-  required VoidCallback? onCallBack, // Allow null for safety
+  required VoidCallback? onCallBack,
   double? height,
   double? minWidth,
   double? borderRadius,
@@ -16,7 +16,7 @@ Widget customButton({
   elevation,
 }) {
   return GestureDetector(
-    onTap: onCallBack ?? () {}, // Provide a fallback if null
+    onTap: onCallBack ?? () {},
     child: Container(
       height: height ?? 62,
       width: minWidth ?? double.infinity,
